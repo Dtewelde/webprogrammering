@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bestilling Kinobilleter</title>
+    <script type="application/javascript" src="oblig1.js"></script>
+    <style>
+        body {
+            border: 2px solid #0713ef;
+            width: 420px;
+            float: left;
+            height: 480px;
+        }
+        #flfeilmelding,#antallfeilmelding,#fofeilmelding,#efeilmelding,#tfeilmelding,#epfeilmelding{
+            color: red;
+        }
+        #antall {
+            width: 12px;
+        }
+    </style>
+</head>
+<body>
+<h1>Bestilling av kinobilletter</h1>
+<table>
+    <label>Velg film: </label>
+    <select id="filmer" name="filmer">
+        <option hidden>Velg film her</option>
+        <option>Swallowed</option>
+        <option>Maybe I Do</option>
+        <option>What About Love</option>
+        </br>
+    </select>
+    </td><td id="flfeilmelding"></td>
+    <tr>
+        <td><br>Antall</td>
+        <td><br><input type = "text" id="antall"></td></td>
+        <td id="antallfeilmelding"></td>
+    </tr>
+</table>
+<table>
+    <tr>
+        <td><br>Fornavn</td>
+        <td><br><input type = "text" id="fnavn"></td></td><td id="fofeilmelding"></td>
+
+    </tr>
+    <tr>
+        <td>Etternavn</td>
+        <td><input type = "text" id="enavn"></td></td>
+        <td id="efeilmelding"></td>
+    </tr>
+    <tr>
+        <td>Telefonnr</td>
+        <td><input type = "text" id="tel"></td></td>
+        <td id="tfeilmelding"></td>
+    </tr>
+    <tr>
+        <td>Epost</td>
+        <td><input type = "text" id="epost"></td>
+        <td id="epfeilmelding"></td>
+    </tr>
+    <tr>
+        <td><br><button onclick="kjopBillett()">Kjøp billett</button></td>
+    </tr>
+</table>
+<h2>Alle billeter</h2>
+<div id="booket"></div>
+<button onclick="sletteAlle()">Slett alle billettene</button>
+</body>
+</html>
