@@ -7,9 +7,7 @@ function kjopBillett() {
     if (document.getElementById('filmer').value === 'Velg film her') {
         document.getElementById('flfeilmelding').innerText = "velg en film"
         a++;
-        Tewelde — 01/29/2024 8:20 PM
-        Mexyni alo
-        robel — 01/29/2024 8:21 PM
+
     } else {
         filmer.tattFilm = document.getElementById('filmer').value;
 
