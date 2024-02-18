@@ -9,12 +9,11 @@
 </body>
 </html>
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Bestilling Kinobilleter</title>
+    <title>Bestilling av Kinobilleter</title>
     <script type="application/javascript" src="oblig1.js"></script>
     <style>
         body {
@@ -23,7 +22,7 @@
             float: left;
             height: 480px;
         }
-        #flfeilmelding,#antallfeilmelding,#fofeilmelding,#efeilmelding,#tfeilmelding,#epfeilmelding{
+        {
             color: red;
         }
         #antall {
@@ -52,7 +51,7 @@
 <table>
     <tr>
         <td><br>Fornavn</td>
-        <td><br><input type = "text" id="fnavn"></td></td><td id="fofeilmelding"></td>
+        <td><br><input type ="text" =fornavn="fornavn" id="fornavn" required> </td></td><td id="fofeilmelding"></td>
 
     </tr>
     <tr>
@@ -75,6 +74,7 @@
     </tr>
 </table>
 <h2>Alle billeter</h2>
+<h2> Film Antall Fornavn Etternavn Telefonnr Epost</h2>
 <div id="booket"></div>
 <button onclick="sletteAlle()">Slett alle billettene</button>
 </body>
