@@ -1,3 +1,4 @@
+
 let array = [];
 
 function kjopBillett() {
@@ -95,7 +96,24 @@ function blankInput() {
 
 }
 
-function sletteAlle() {
-    document.getElementById('booket').innerHTML = "";
+function AltDelete () {
+    document.getElementById(AltDelete,"ut").innerHTML = "";
     console.log(array)
+
 }
+function kjopBillet(){
+    document.getElementByID(kjopBillett," ").innerHTML=" ";
+    console.log(arry)
+}
+
+
+
+
+
+
+
+
+
+
+
+
